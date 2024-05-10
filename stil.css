@@ -1,0 +1,276 @@
+
+ul{
+    background-color: rgb(144, 206, 50);
+    width: 100%;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-left: -30px;      
+    font-style: italic;
+    font-size: 25px;
+    color:black;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    text-size-adjust: 5px;
+}
+ul li a:hover{
+    background-color: white;
+    color:red;
+}
+/* proje kisminin css i */
+
+/* hakkimda css i*/
+.baslik{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.ben{
+  background-color: red;
+  color: yellow;
+  font: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* hakkimda css i*/
+
+
+
+/* ozgecmis sayfasi css i */
+.egitim{
+    background-color: rgb(172, 79, 79);
+}
+article{
+    color: white;
+    font-size: 23px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, section, footer {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* ozgecmis sayfasi ccs i */
+
+/* iletisim sayfasi ccs i */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 7px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[tyoe="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  /*iletisim sayfasinin cssi */
+
+
+/* hakkinda css i */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+/* hakkinda css i */
+
+/* sehrim css i*/
+
+.sehir{
+  background-color: rgb(196, 128, 128);
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2a2020;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.slider-container {
+  background-color: white;
+  position: relative;
+  width: 60%; /* Sliderın genişliği ayarlanabilir */
+  margin: 0 auto; /* Sayfanın ortalanması */
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  display: flex; /* Resmi ve butonu hizalamak için */
+  justify-content: center; /* Resmi ortala */
+}
+
+.slide img {
+  max-width: 100%; /* Resmin genişliğini ayarla */
+  height: auto;
+  margin-right: 10px; /* Sağ tarafta boşluk bırak */
+  margin-left: 10px; /* Sol tarafta boşluk bırak */
+}
+
+/* Slider navigasyon düğmeleri stilleri */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 1; /* Düğmelerin resmin üzerinde olmasını sağlar */
+}
+
+.prev {
+  left: 10px; /* Sol taraftaki buton*/
+}
+
+.next {
+  right: 10px; /* Sağ taraftaki buton*/
+}
+
+/* sehrim css i*/
+
+/* login sayfasi css i */
+.loginbody {
+  font-family: Arial, sans-serif;
+  background-color: rgba(34, 19, 19, 0.229);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: rgb(247, 243, 243);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="sifre"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/*login sayfasi cssi */
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
